@@ -8,7 +8,6 @@ It allows users to shorten long URLs, create custom short codes, redirect using 
 ## 🚀 Features
 
 - Shorten long URLs
-- Generate custom short codes (optional)
 - Redirect to original URL via short URL
 - Track number of clicks
 - View analytics for each short URL
