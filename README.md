@@ -75,13 +75,13 @@ Request Body:
 Redirect to original URL by short url.
 e.g. http://localhost:8000/r/abc123
 ```bash
-POST https://url-shortener-backend-ygx6.onrender.com/r/:shortCode
+GET https://url-shortener-backend-ygx6.onrender.com/r/:shortCode
 ```
 
 - 📊 GET /api/stats/:shortCode
   Get analytics (click count, createdAt)
 ```bash
-POST https://url-shortener-backend-ygx6.onrender.com/api/stats/:shortCode
+GET https://url-shortener-backend-ygx6.onrender.com/api/stats/:shortCode
 
 Response:
 {
